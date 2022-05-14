@@ -1,0 +1,161 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-color: #c3bab1;
+    border-bottom: 1px solid #000;
+}
+
+header h1{
+    color: #000;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    margin-left: 10px;
+}
+
+header img{
+    padding-left: 25px;
+}
+
+nav{
+    background-color: #cec5c0;   
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+    padding: 1px 6px;
+    display: block;
+    text-align: center;
+    font-weight: 300;
+}
+
+nav ul li a.activo{
+    background-color: #c3bab3;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+#img{
+    background: url(../img/fondo.jpg) repeat scroll center center/cover;
+    height: 55vh;
+    width: 100%;
+}
+
+h2{
+    color: #080401;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios{
+    width: 25%;
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.testimonio{
+    background-color: #c3bab3;
+    padding: 16px;
+}
+
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
+
+
+.historia p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona{
+    border: 1px solid #080401;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.persona img{
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 50px rba(0,0,0,0.5);
+}
+
+.persona h5, .persona h6{
+    margin: 0;
+    font-weight: normal;
+    color: #000;
+}
+
+.persona p{
+    color: grey;
+    font-size: 10px;
+}
+
+footer{
+    background-color: #c3bab1;
+    clear: both;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
