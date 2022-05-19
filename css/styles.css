@@ -5,55 +5,58 @@ body{
 }
 
 header{
-    background-color: #c3bab1;
+    background-color: #130e12;
+    height: 65px;
     border-bottom: 1px solid #000;
+
 }
 
-header h1{
-    color: #000;
-    font-size: 40px;
-    font-weight: 100;
-    font-style: italic;
-    display: inline-block;
-    position: relative;
-    bottom: 25px;
-    margin-left: 10px;
+.header{
+    display: inline-flex ;
+    
 }
 
-header img{
+.header h1{
     padding-left: 25px;
+    padding-top: 3px;
+    font-weight: 500;
+    font-style: italic;
+    color: #fff;
+    
 }
 
-nav{
-    background-color: #cec5c0;   
+.header img{
+    width: 75px;
+    height: 60px;
+    color: #a2a7a0;
 }
 
-nav ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+.nav{
+    float: right;
+    margin-right: 35px;
+    padding-top: 7px;
 }
 
-nav ul li{
-    flex-grow: 1;
-}
-
-nav ul li a{
-    color: #000;
+.nav a{
     text-decoration: none;
-    padding: 1px 6px;
-    display: block;
-    text-align: center;
-    font-weight: 300;
+    color: #fff;
+    padding: 1px 15px;
+   
 }
 
-nav ul li a.activo{
-    background-color: #c3bab3;
+
+.nav li {
+    display: inline-block;
+    
+    
 }
 
-nav ul li a:hover{
-    background-color: rgba(0,0,0,0.3);
+.nav a:hover{
+    color: #b5916d;
+}
+
+a.activo{
+   color: #b5916d;
 }
 
 .holder{
@@ -63,54 +66,61 @@ nav ul li a:hover{
 }
 
 #img{
-    background: url(../img/fondo.jpg) repeat scroll center center/cover;
-    height: 55vh;
+    background: rgba(0,0,0,0.4) url(../img/fondo.jpg) repeat scroll center center/cover;
+    height: 100vh;
     width: 100%;
+    background-blend-mode: darken;
 }
 
-h2{
-    color: #080401;
-    font-weight: 400;
-    font-size: 25px;
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .bienvenidos{
-    width: 75%;
-    padding-right: 10px;
-    box-sizing: border-box;
-}
-
-.testimonios{
-    width: 25%;
-}
-
-.columnas{
-    display: flex;
-    justify-content: space-between;
-}
-
-.bienvenidos p{
-    font-size: 17px;
-    font-weight: 300;
-}
-
-.testimonio{
-    background-color: #c3bab3;
-    padding: 16px;
-}
-
-.testimonio .cita{
-    font-weight: bold;
-    font-style: italic;
-    font-size: 22px;
-    display: block;
-}
-
-.testimonio .autor{
-    font-size: 10px;
+    color: #fff;
+    font-size: 18px;
     text-align: center;
-    display: block;
-    margin: 12px 0;
+    padding-bottom: 7.5rem;
+}
+
+.corte{
+    display: flex;
+    width: 100%;
+    height: 15px;
+    background-color: #000;
+}
+
+#about{
+    background: rgba(0,0,0,0.8) url(../img/fondo2.jpg) repeat scroll center center/cover;
+    height: 100vh;
+    width: 100%;
+    background-blend-mode: darken;
+}
+
+
+.about{
+   display: flex;
+}
+
+.description{
+    text-align: center;
+    color: #fff;
+}
+
+
+span{
+    color: #b5916d;
+    font-style: italic;
+}
+
+.staff h2{
+    margin-top: 1.5rem;
+    margin-bottom: 2.0rem;
+    text-decoration: underline #b5916d;
 }
 
 
@@ -122,10 +132,11 @@ h2{
 .personas{
     display: flex;
     justify-content: space-between;
+   
 }
 
 .persona{
-    border: 1px solid #080401;
+    border: 1px solid #b5916d;
     border-radius: 5px;
     width: 18%;
     text-align: center;
@@ -142,20 +153,21 @@ h2{
 .persona h5, .persona h6{
     margin: 0;
     font-weight: normal;
-    color: #000;
+    color: #fff;
 }
 
 .persona p{
-    color: grey;
+    color: #b5916d;
     font-size: 10px;
 }
 
 footer{
-    background-color: #c3bab1;
+    background-color: #130e12;
+    border-top: 1px solid #000;
     clear: both;
-    color: #000;
+    color: #fff;
     text-align: center;
     padding: 5px 0;
-    margin-top: 20px;
+    
 }
 
